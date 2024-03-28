@@ -211,7 +211,7 @@ nav ul li{
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
-    z-index: 1; /* Ensure text is above the video */
+    z-index: 1; 
 }
 .mga-logo{
     width: 100%;
@@ -309,11 +309,11 @@ nav ul li{
 }
 .hapit-na ul li{
     display: inline-block;
-    text-align: center; /* Center the text and images */
+    text-align: center;
     padding: 0 120px;
 }
 .hapit-na h5{
-    text-align: center; /* Center the text */
+    text-align: center;
 }
 .hapit-na ul li img{
     margin: 10px;
