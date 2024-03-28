@@ -1,5 +1,6 @@
 *{
     font-family: 'Times New Roman', Times, serif;
+    
 }
 body{
     margin: 0%;
@@ -11,6 +12,14 @@ body{
     align-items: center;
     justify-content: space-between;
     height: 43px;
+}
+.navigation-bar {
+    position: fixed;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: top 0.1s ease;
 }
 .kilid{
     float: right;
@@ -71,6 +80,7 @@ nav ul li{
     padding: 15px;
 }
 .flash{
+    margin-top: 160px;
     width: 100%;
     height: 400px;
 }
@@ -79,6 +89,7 @@ nav ul li{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #FDF9F2;
 }
 .Collection ul{
     list-style: none;
@@ -129,14 +140,16 @@ nav ul li{
     display: flex;
     padding-left: 250px;
     padding-right: 250px;
+    background-color: #FDF9F2;
 }
 .exclusive ul{
     width: 100%;
     list-style: none;
 }
 .exclusive img{
+    max-width: 730px;
+    max-height: 650px;
     
-    width: 750px;
 
 }
 .exdesign{
@@ -151,10 +164,93 @@ nav ul li{
 .award{
     width: 15px;
 }
-.feather{
+.Quantity{
+    padding-top: 20px;
+}
+.add-minus{
+    padding: 15px;
     border-style: groove;
-    width: 40px;
-    height: 40px;
-
+    user-select: none;
 }
 
+.Baby{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FDF9F2;
+
+}
+.Baby ul{
+    list-style: none;
+    width: 100%;
+}
+.Baby ul li {
+    display: inline-block;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+.Baby ul li img{
+    width: 220px;
+}
+.Baby ul li p{
+   color: black;
+   display: inline-block;
+}
+.video-container {
+    position: relative;
+    width: 100%;
+}
+.video-container video {
+    width: 90%;
+    height: 30%;
+}
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 1; /* Ensure text is above the video */
+}
+.mga-logo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FDF9F2;
+
+}
+.mga-logo ul{
+    list-style: none;
+    width: 100%;
+    padding: 12px;
+}
+.mga-logo ul li {
+    display: inline-block;
+    padding: 30px;
+    padding-bottom: 30px;
+}
+.mga-logo ul li img{
+    width: 150px;
+}
+.blog{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FDF9F2;
+}
+.blog ul{
+    width: 100%;
+    list-style: none;
+}
+.blog ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.blog ul li img{
+    width: 400px;
+    height: 500px;
+}
