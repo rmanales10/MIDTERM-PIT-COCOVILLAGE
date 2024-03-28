@@ -65,8 +65,7 @@ nav ul li{
     align-items: center;
     justify-content: center;
     font-size: 15px;
-
-     background-color: #FDF9F2;
+    background-color: #FDF9F2;
 }
 .benav ul{
     list-style: none;
@@ -254,3 +253,100 @@ nav ul li{
     width: 400px;
     height: 500px;
 }
+
+.story ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.story li{
+    padding: 10px;
+}
+.story img{
+    display: inline-block;
+    width: 80px;
+    border-radius: 100% ;
+    border-style: solid ;
+    border-color: greenyellow;
+    border-width: 5px;  
+    margin: 0;
+}
+.inspired{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #FDF9F2;
+}
+.inspired ul{
+    width: 100%;
+    list-style: nonce;
+}
+.inspired li{
+    display: inline;
+    padding: 1px;
+}
+.inspired img {
+    border-style: ridge;
+    padding: 5px;
+    width: 250px;
+    height: 250px;
+}
+.hapit-na{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #DFE3E8;
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
+.hapit-na ul{
+    list-style: none;
+   
+}
+.hapit-na ul li{
+    display: inline-block;
+    text-align: center; /* Center the text and images */
+    padding: 0 120px;
+}
+.hapit-na h5{
+    text-align: center; /* Center the text */
+}
+.hapit-na ul li img{
+    margin: 10px;
+    width: 30px;
+}
+
+.newsletter{
+    display: flex;
+    width: 100%;
+    background-color: #E4BF9D;
+    padding-top: 40px;
+    margin-top: 1px;
+}
+.newsletter ul{
+    list-style: none;
+    font-size: 17px;
+   
+}
+.newsletter img{
+    margin: 0 0 0 5px;
+}
+.last-najud{
+    background-color: #E4BF9D;
+    display: flex;
+    width: 100%;
+    margin-top: 1px;
+    padding-top: 30px;
+}
+.last-najud ul{
+    list-style: none;
+}
+.last-najud img{
+    padding: 5px;
+}
+
+
